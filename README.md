@@ -6,4 +6,4 @@ Check out more about me on my [website](https://bradleykennedy.co.uk) and if you
 
 Any questions - [Get in touch!](https://bradleykennedy.co.uk/contact)
 
-![school-logo](https://dl.dropbox.com/s/m56n0tfcbwbtgid/UoC%20School%20of%20Psychology%201.jpg?dl=0)
+![school-logo](https://dl.dropbox.com/s/js5w2w3tltn58gy/RISC%20Logo%20crop.PNG?dl=0 | width=150)
