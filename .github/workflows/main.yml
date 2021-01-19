@@ -9,14 +9,26 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      # See action.yml for all options
       - uses: lowlighter/metrics@latest
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
           # GITHUB_TOKEN is a special auto-generated token restricted to current repository, which is used to push files in it
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: lowlighter/metrics@latest
-        with:
-        # ... other options
-        plugin_isocalendar: yes
+
+          # Options
+          user: b-kennedy0
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_animated: yes
+          config_timezone: Europe/London
+          plugin_activity: yes
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_limit: 5
+          plugin_followup: yes
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugin_pagespeed: yes
+          plugin_pagespeed_detailed: yes
+          plugin_pagespeed_screenshot: yes
