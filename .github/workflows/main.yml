@@ -31,4 +31,3 @@ jobs:
           plugin_isocalendar_duration: half-year
           plugin_pagespeed: yes
           plugin_pagespeed_detailed: yes
-          plugin_pagespeed_screenshot: yes
