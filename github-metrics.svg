@@ -2033,7 +2033,7 @@ Graph shows data per_week not per_day - updated descriptive text to reflect that
       
         <footer>
           <span>These metrics include private contributions, timezone Europe/London</span>
-          <span>Last updated Mon, 25 Jan 2021 01:04:31 GMT with lowlighter/metrics@3.2.0</span>
+          <span>Last updated Mon, 25 Jan 2021 06:38:51 GMT with lowlighter/metrics@3.2.0</span>
         </footer>
       
       <div id="metrics-end"></div>
