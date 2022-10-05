@@ -21,6 +21,5 @@ jobs:
           template: classic
           base: header
           config_timezone: Europe/London
-          plugin_introduction: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
